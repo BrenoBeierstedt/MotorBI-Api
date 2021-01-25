@@ -1,8 +1,8 @@
 require('dotenv').config();
 const env = process.env.NODE_ENV || 'dev';
-let host = '';
-let user = '';
-let password = '';
+let host = '192.168.1.33:1521';
+let user = 'ema';
+let password = 'dbaaccesskey';
 
   if (env === 'dev') {
     host = process.env.DB_HOST_DEV;
